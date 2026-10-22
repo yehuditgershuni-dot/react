@@ -1,0 +1,70 @@
+.home-container {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin: 0;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+.action-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.action-btn {
+  padding: 16px;
+  font-size: 1.05rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 2px solid #cbd5e1;
+  color: #1e293b;
+  transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.action-btn.btn-lost {
+  background-color: #ffe4e6;
+  border-color: #e11d48;
+  color: #e11d48;
+}
+
+.action-btn.btn-found {
+  background-color: #d1fae5;
+  border-color: #059669;
+  color: #059669;
+}
+
+.action-btn.btn-register {
+  background-color: #1e3a8a;
+  border-color: #1e3a8a;
+  color: #ffffff;
+}
